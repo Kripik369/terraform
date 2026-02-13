@@ -23,3 +23,11 @@
 <img width="1888" height="1100" alt="image" src="https://github.com/user-attachments/assets/bebcb5b3-872f-451f-b8df-0088ba8dd93f" />
 
 выполнил код проекта
+
+<img width="724" height="199" alt="image" src="https://github.com/user-attachments/assets/51f3c26a-97d5-4a66-8cae-a6cc112eb910" />
+
+ресурс random_password выполнил свою задачу и выдал результат
+"result": "zE2Avz0b0QSg1ZBF",
+
+
+
