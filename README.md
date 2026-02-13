@@ -10,7 +10,7 @@
 
 скачал дз , докер уже стоит
 
-Задание1: дл
+Задание1:
 
 <img width="1493" height="722" alt="image" src="https://github.com/user-attachments/assets/23e89347-53bc-4e17-8cbe-fc6a5264ce94" />
 
