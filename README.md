@@ -20,4 +20,6 @@
 
 судя по содержимому файла gitignore логины,пароли,ключи,токены итд необходимо хранить в personal.auto.tfvars
 
+<img width="1888" height="1100" alt="image" src="https://github.com/user-attachments/assets/bebcb5b3-872f-451f-b8df-0088ba8dd93f" />
 
+выполнил код проекта
