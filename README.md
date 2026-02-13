@@ -45,4 +45,22 @@
 
 код выполнен
 
+<img width="1502" height="104" alt="image" src="https://github.com/user-attachments/assets/398411e8-37ea-4ab9-acb6-eb8c3ba08e24" />
+
+auto-aprove может быть опасен из за того что он подтверждает выполнение кода без вмешательства человека , однако это может быть полезно при автоматизации в пайплайне по той же причине
+
+<img width="904" height="309" alt="image" src="https://github.com/user-attachments/assets/1875a305-e4f2-4213-9139-2415674c3fc2" />
+
+ресурсы уничтожены , terraform destroy
+
+<img width="569" height="125" alt="image" src="https://github.com/user-attachments/assets/e0fe6192-c6d2-4d77-9927-6ee10774c746" />
+
+ответ на то почему не удалился образ nginx в коде а именно строчка keep_locally = true
+
+<img width="1058" height="72" alt="image" src="https://github.com/user-attachments/assets/fe0b4f07-0526-4329-be45-21e64c6cf7a4" />
+
+а вот ответ из документации по данному вопросу
+
+
+
 
