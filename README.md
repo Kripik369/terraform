@@ -10,7 +10,7 @@
 
 скачал дз , докер уже стоит
 
-Задание1:
+Задание1: дл
 
 <img width="1493" height="722" alt="image" src="https://github.com/user-attachments/assets/23e89347-53bc-4e17-8cbe-fc6a5264ce94" />
 
@@ -29,5 +29,20 @@
 ресурс random_password выполнил свою задачу и выдал результат
 "result": "zE2Avz0b0QSg1ZBF",
 
+<img width="1391" height="453" alt="image" src="https://github.com/user-attachments/assets/be5cf468-b5aa-4d9d-a701-42fced14fdf4" />
+
+раскоментировал и попробововал validate
+
+<img width="1684" height="972" alt="image" src="https://github.com/user-attachments/assets/c68133e8-43c3-46ec-9371-e85f5c6fe2a0" />
+
+исправил опечатку в названии контейнера , добавил имя nginx ресурсу docker_image, исправил название модуля random_string_fake для ресурса random_password, и исправил название самого модуля на 30 строчке
+
+<img width="1617" height="880" alt="image" src="https://github.com/user-attachments/assets/ccf808ed-0b20-4acc-a592-2b23774570fe" />
+
+теперь файл main.tf выглядит так
+
+<img width="1761" height="114" alt="image" src="https://github.com/user-attachments/assets/eb145b90-6256-4d99-9109-aa7371faecca" />
+
+код выполнен
 
 
