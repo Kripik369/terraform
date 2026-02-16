@@ -59,6 +59,43 @@ auto-aprove может быть опасен из за того что он по
 
 <img width="1058" height="72" alt="image" src="https://github.com/user-attachments/assets/fe0b4f07-0526-4329-be45-21e64c6cf7a4" />
 
+Задание№2
+
+<img width="946" height="73" alt="image" src="https://github.com/user-attachments/assets/079ce07f-cf78-468e-8931-0980093629a1" />
+
+создал вм и установил на ней docker 
+
+<img width="1065" height="118" alt="image" src="https://github.com/user-attachments/assets/2b64d010-37ca-42c4-9cbd-2213334c5cf4" />
+
+вот способ
+
+<img width="1815" height="1080" alt="image" src="https://github.com/user-attachments/assets/f59cbfb4-354d-4327-bba0-3d4a9e89b5d9" />
+
+вывод плана 
+
+<img width="1879" height="1089" alt="image" src="https://github.com/user-attachments/assets/7ba96ce5-52db-4c99-a36b-92ad92386309" />
+
+готово запустил на вм mysql:8
+
+<img width="1919" height="1045" alt="image" src="https://github.com/user-attachments/assets/9b2dcc47-481a-481f-ada7-3a01f03f06a9" />
+а вот переменные
+
+задание 3
+
+<img width="990" height="121" alt="image" src="https://github.com/user-attachments/assets/37718872-c13d-4417-8213-878c0c1eaa34" />
+
+тофу установлен
+
+увы запустить не удалось ,даже с изменением версии (1.15 пока не добралась до тофу) тк ресурс заблокирован в рф 
+
+<img width="1897" height="479" alt="image" src="https://github.com/user-attachments/assets/c0b7a0bf-f358-4e20-ad16-2b2e48d3debf" />
+
+
+
+
+
+
+
 а вот ответ из документации по данному вопросу
 
 
