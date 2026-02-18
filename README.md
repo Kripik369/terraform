@@ -47,3 +47,10 @@
 вывод терраформа
 
 ##Задача3
+
+<img width="1836" height="344" alt="image" src="https://github.com/user-attachments/assets/2051718d-0294-4041-b28b-047397828356" />
+
+машины в разных подсетях а и б
+
+##Задача3
+
