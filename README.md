@@ -26,3 +26,24 @@
 
 подключился к вм 
 
+<img width="1102" height="661" alt="image" src="https://github.com/user-attachments/assets/8f998ba3-f15c-4ebc-afff-2aee1e3dd3e7" />
+
+применил команду
+
+Параметры preemptible = true и core_fraction = 5 дают нам экономию ресурсов
+
+##Задание2
+
+<img width="1466" height="670" alt="image" src="https://github.com/user-attachments/assets/2b77204f-f59d-4f54-be18-9ca3bdb55a38" />
+
+новые переменные
+
+<img width="901" height="430" alt="image" src="https://github.com/user-attachments/assets/d19b28a7-d401-4f8c-9103-9ffe33ff39c9" />
+
+ссылки на них ( значения процессора не описывал)
+
+<img width="1463" height="591" alt="image" src="https://github.com/user-attachments/assets/335cc951-0959-44fa-9a8b-f1c579538ea8" />
+
+вывод терраформа
+
+##Задача3
