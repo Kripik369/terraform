@@ -66,5 +66,9 @@
 
 ##Задача6
 
+<img width="1484" height="647" alt="image" src="https://github.com/user-attachments/assets/b2c228d2-d584-4710-92cf-9a2e099865e1" />
+
+добавил единые переменные и убрал лишние ,перекомпоновка прошла успешно
+
 
 
