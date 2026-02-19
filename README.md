@@ -52,5 +52,19 @@
 
 машины в разных подсетях а и б
 
-##Задача3
+##Задача4
+
+<img width="1258" height="659" alt="image" src="https://github.com/user-attachments/assets/376f60f1-3613-4412-8211-67fb05d50eb2" />
+
+вывод terraform outputs
+
+##Задача5
+
+<img width="1207" height="441" alt="image" src="https://github.com/user-attachments/assets/f68ef495-2637-4210-9381-d7faff94000a" />
+
+применил изменения после интерполяции
+
+##Задача6
+
+
 
