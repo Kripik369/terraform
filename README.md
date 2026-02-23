@@ -6,3 +6,6 @@
 
 ##Задание2
 
+<img width="1272" height="697" alt="image" src="https://github.com/user-attachments/assets/0b03e5ae-3a06-442a-9ab4-b5662afc3723" />
+
+написал файл для создания vm
