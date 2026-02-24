@@ -9,3 +9,8 @@
 <img width="1272" height="697" alt="image" src="https://github.com/user-attachments/assets/0b03e5ae-3a06-442a-9ab4-b5662afc3723" />
 
 написал файл для создания vm
+
+<img width="1286" height="815" alt="image" src="https://github.com/user-attachments/assets/57a96e6e-b2d5-4983-93da-931c927c7c06" />
+
+добавил группу безопасности
+
