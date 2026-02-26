@@ -26,3 +26,12 @@
 
 вот ВМ
 
+##Задача3
+
+<img width="1170" height="1016" alt="image" src="https://github.com/user-attachments/assets/621c856d-0a48-4cae-93a1-bb232492114b" />
+
+код для дисков и ВМ с дисками
+
+
+
+
