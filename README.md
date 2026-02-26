@@ -14,3 +14,15 @@
 
 добавил группу безопасности
 
+<img width="1202" height="784" alt="image" src="https://github.com/user-attachments/assets/d69a35da-3643-4ed6-8bb6-496e48371b6c" />
+
+создал переменную for_each прописал значения под нее + переменная под ssh ключ
+
+<img width="1892" height="400" alt="image" src="https://github.com/user-attachments/assets/c239cd51-7472-4c9c-846d-4d0c7dfa700e" />
+
+код уже запускал 
+
+<img width="1847" height="388" alt="image" src="https://github.com/user-attachments/assets/43659740-33d7-4677-957b-468b0d64c066" />
+
+вот ВМ
+
