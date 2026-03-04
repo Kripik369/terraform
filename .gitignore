@@ -1,0 +1,19 @@
+
+terraform.tfstate.backup
+authorized_key.json
+terraform.tfstate
+.terraform.lock.hcl
+.terraform
+EOF
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+EOF
+
