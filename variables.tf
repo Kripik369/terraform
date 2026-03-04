@@ -35,11 +35,11 @@ variable "vm_web_ubuntu-2004-lts"{
   default = "ubuntu-2004-lts"
   description = "name_family_os"
 }
-variable "sec_id"{
-  type  = string
-  default = "enprbdcbsbl6kibpdkjk"
-  description = "security_group_id"
-}
+#variable "sec_id"{
+#  type  = string
+#  default = "enprbdcbsbl6kibpdkjk"
+#  description = "security_group_id"
+#}
 variable "each_vm" {
   type = list(object({  vm_name=string, cpu=number, ram=number, disk_volume=number }))
 }
