@@ -58,7 +58,7 @@ resource "yandex_compute_instance" "platformb" {
   resources {
     cores         = local.web_resources.cores
     memory        = local.web_resources.memory
-    core_fraction = var.core_fraction
+    core_fraction = local.web_core_fraction
   }
   boot_disk {
     initialize_params {
