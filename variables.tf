@@ -56,18 +56,18 @@ variable "vm_web_name_standard-v3"{
   type  = string
   default = "standard-v3"
 }
-variable "cores"{
-  type  = string
-  default = "2"
-}
-variable "memory"{
-  type  = string
-  default = "4"
-}
-variable "core_fraction"{
-  type  = string
-  default = "20"
-}
+#variable "cores"{
+#  type  = string
+#  default = "2"
+#}
+#variable "memory"{
+#  type  = string
+#  default = "4"
+#}
+#variable "core_fraction"{
+#  type  = string
+#  default = "20"
+#}
 variable "vms_resources" {
   description = "Ресурсы VM"
   type = map(object({
