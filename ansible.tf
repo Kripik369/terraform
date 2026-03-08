@@ -1,27 +1,21 @@
 locals {
+web_count = 2
+db_count = 3
   webservers = [
+     for i in range(local.web_count) :
     {
-      name            = yandex_compute_instance.web[0].name
-      nat_ip_address  = yandex_compute_instance.web[0].network_interface[0].nat_ip_address
-      fqdn            = yandex_compute_instance.web[0].fqdn
-    },
-    {
-      name            = yandex_compute_instance.web[1].name
-      nat_ip_address  = yandex_compute_instance.web[1].network_interface[0].nat_ip_address
-      fqdn            = yandex_compute_instance.web[1].fqdn
+      name            = yandex_compute_instance.web["${i}"].name
+      nat_ip_address  = yandex_compute_instance.web["${i}"].network_interface[0].nat_ip_address
+      fqdn            = yandex_compute_instance.web["${i}"].fqdn
     }
   ]
   
   databases = [
+      for i in range(local.db_count) :
     {
-      name            = yandex_compute_instance.bd["main"].name
-      nat_ip_address  = yandex_compute_instance.bd["main"].network_interface[0].nat_ip_address
-      fqdn            = yandex_compute_instance.bd["main"].fqdn
-    },
-    {
-      name            = yandex_compute_instance.bd["replica"].name
-      nat_ip_address  = yandex_compute_instance.bd["replica"].network_interface[0].nat_ip_address
-      fqdn            = yandex_compute_instance.bd["replica"].fqdn
+      name            = yandex_compute_instance.bd[i].name
+      nat_ip_address  = yandex_compute_instance.bd[i].network_interface[0].nat_ip_address
+      fqdn            = yandex_compute_instance.bd[i].fqdn
     }
   ]
   

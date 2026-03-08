@@ -41,6 +41,79 @@ variable "vm_web_ubuntu-2004-lts"{
 #  description = "security_group_id"
 #}
 variable "each_vm" {
-  type = list(object({  vm_name=string, cpu=number, ram=number, disk_volume=number }))
+  type = list(object({  vm_name=list(string), cpu=number, ram=number, disk_volume=number }))
+  default = []
+}
+variable "web_cores" {
+  description = "CPU cores for web instances"
+  type        = number
+  default     = 2
+}
+
+variable "web_memory" {
+  description = "RAM for web instances (GB)"
+  type        = number
+  default     = 1
+}
+
+variable "web_core_fraction" {
+  description = "CPU core fraction"
+  type        = number
+  default     = 20
+}
+variable "d_size" {
+  description = "disc_size"
+  type        = number
+  default     = 10
+}
+variable "m_c" {
+  description = "c_size"
+  type        = number
+  default     = 2
+}
+variable "m_d" {
+  description = "m_size"
+  type        = number
+  default     = 4
+}
+
+variable "si_d" {
+  description = "m_size"
+  type        = number
+  default     = 2
+}
+variable "d_count" {
+  description = "counter"
+  type        = number
+  default     = 2
+}
+variable "vm_count" {
+  type        = number
+  description = "Количество VM для создания"
+  default     = 5
+}
+
+variable "base_vm_name" {
+  type        = string
+  description = "Базовое имя VM (будет добавлен номер)"
+  default     = "main"
+}
+
+variable "base_cpu" {
+  type        = number
+  description = "Количество CPU для каждой VM"
+  default     = 4
+}
+
+variable "base_ram" {
+  type        = number
+  description = "Объем RAM (ГБ) для каждой VM"
+  default     = 8
+}
+
+variable "base_disk" {
+  type        = number
+  description = "Размер диска (ГБ) для каждой VM"
+  default     = 5
 }
 

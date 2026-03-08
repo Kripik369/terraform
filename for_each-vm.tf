@@ -1,16 +1,15 @@
 resource "yandex_compute_instance" "bd"{
- for_each = {
-    for vm in var.each_vm : 
-    vm.vm_name => vm
-  }
- name = "${each.key}"
+ count = 3
+ name        = "main-${count.index}"
+ platform_id = "standard-v3"
+ zone        = "ru-central1-b"
  resources {
-    cores  = each.value.cpu
-    memory = each.value.ram
+    cores  = var.web_cores 
+    memory = var.web_memory
   }
  boot_disk {
     initialize_params {
-     size = each.value.disk_volume
+     size = var.d_size 
      image_id = data.yandex_compute_image.ubuntu.image_id
     }
   }

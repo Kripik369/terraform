@@ -5,9 +5,9 @@ resource "yandex_compute_instance" "web"{
  count = 2
  name = "web-${count.index+1}"
  resources {
-    cores         = 2
-    memory        = 1
-    core_fraction = 20
+    cores         = var.web_cores
+    memory        = var.web_memory
+    core_fraction = var.web_core_fraction
   }
  boot_disk {
     initialize_params {

@@ -1,8 +1,8 @@
 resource "yandex_compute_disk" "disk" {
-  count = 3 
+  count = var.d_count
   name  = "disk-1gb-${count.index + 1}"
   type  = "network-hdd"
-  size  = 5       
+  size  = var.si_d
 }
 resource "yandex_compute_instance" "storage" {
   name        = "storage"
@@ -10,13 +10,13 @@ resource "yandex_compute_instance" "storage" {
   zone        = "ru-central1-a"
   
   resources {
-    cores  = 2
-    memory = 4
+    cores  = var.m_c
+    memory = var.m_d
   }
   
   boot_disk {
     initialize_params {
-      size      = 10
+      size      = var.d_size
       image_id  = data.yandex_compute_image.ubuntu.id
     }
   }

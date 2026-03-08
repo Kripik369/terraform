@@ -1,6 +1,8 @@
 locals {
   public_key = file("/home/svil/.ssh/id_rsa.pub")
 }
+
+
 resource "yandex_vpc_network" "develop" {
   name = var.vpc_name
 }
